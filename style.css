@@ -1,0 +1,503 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+h2,h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 100;
+}
+h1{
+    font-weight: bold;
+}
+
+#main{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#profile{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#aboutme{
+    background-color: white;
+    height: 100vh;
+}
+img{
+    height: 350px;
+    float: left;
+    border-radius: 20%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sub{
+    margin-top: 13%;
+    font-family: 'Oswald',serif;
+    font-size: xx-large
+}
+.myphoto{
+    margin-top: 2%;
+    margin-left:22%;
+}
+.info{
+    position: relative;
+    left:3%;
+    top:6%;
+    text-align: justify;
+    font-size: larger;
+    max-width: 70%;
+    line-height: 140%;
+}
+.gcontainer{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    margin-left: 17%;
+    
+}
+.col>p{
+    color:#838C95;
+}
+.col>h3{
+     margin-bottom: 8%;
+}
+.pinfo{
+    max-width: 70%;
+    text-align:justify ;
+}
+.xa>h4{
+    color: white;
+    margin-top: 5%;
+}
+.Education{
+ height: 100vh;
+ padding: 0;
+ 
+}
+.timeline{
+    margin-top: 0%;
+    display: inline-flex;
+    flex-direction: column;
+    
+    
+}
+.circleone{
+    height: 15px;
+    width:15px;
+    background-color: #9BA4B5;
+    border-radius: 50%;
+    position: absolute;
+    left: 49.5% ;
+}
+
+.checkpoint{
+    
+    border-left: 2px solid #9BA4B5;
+ 
+}
+.checkpoint > div{
+    margin-top: 10%;    
+    margin-left:10%;
+    padding: 2%;
+    margin-right: 5%;
+    width: fit-content;
+    border: 2px solid black;
+
+    border-radius: 10px;
+}
+.headingedu > h1{
+
+    color: black;
+    display: inline;
+}
+.headingedu{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.educontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.extra{
+    height: 100%;
+}
+.extraline{
+    border:0px solid white;
+}
+#s{
+    border: 0px;
+}
+#project{
+    height: 100vh;
+    background-color: #EEEEEE;
+}
+#s > .circleone{
+    height: 20px;
+    width: 20px;
+}
+.project-container{
+    position: relative;
+    top: 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.project-container>h3{
+    margin-top: 1%;
+    color: #4E4FEB;
+    font-size: x-large;
+}
+.project-container>h2{
+    font-size: xx-large;
+    color: black;
+}
+.project-grid{
+    margin-top: 10%;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 10px;
+    grid-template-columns: 18px 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:40px;
+    margin-bottom: 2%;
+
+}
+.project1{
+    height: fit-content;
+    
+}
+.project-grid p{
+    max-width:auto;
+}
+.project1>img{
+    display: block;
+    width: 40%;
+}
+#cloud{
+    padding: 0;
+    float: none;
+    height: 65%;
+}
+.project-grid>div{
+    padding:20px;
+    border: 2px solid gray;
+    border-radius: 30px;
+}
+.project1>h1{
+    color: lightgrey;
+}
+#Nun{
+    border: 0px;
+}
+
+.self{
+    position: relative;
+    top: 10%;
+}
+.ts{
+    font-weight: bold;
+    font-size: larger;
+    color: #B2B2B2;
+}
+#html{
+    height: 90px;
+    width: 90px;
+    padding-bottom: 10px;
+}
+.imagecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imagecontainer > img{
+    height: 300px;
+    width: 100px;
+}
+#footer{
+    height:100%;
+    background-color: black;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.footer-flex h3,.footer-flex h4{
+
+    color:white;
+}
+.footer-flex h3{
+  
+    margin-top: 2%;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #F06000;
+}
+.footer-flex h2{
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-flex h4{
+    color:#838C95;
+    font-size: 120%;
+}
+.footer-grid{
+   
+    display: grid;
+    width:100% ;
+    height:100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 10px;
+    gap: 2%;
+    padding: 0;
+    margin: 0;
+}
+.footer-grid img{
+    height: 10%;
+}
+.footer-grid p{
+    color: white;
+    justify-content: center;
+}
+.footer-grid a{
+    all:unset;
+    color: #11ABB0;
+}
+
+@media (max-width: 1260px) {
+   p{
+    margin-top: 4%;
+   }
+  
+ img{
+    margin:0;
+    height: 200px ;
+    margin-top:4%;
+    float: none;
+ }
+
+ .pcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .myphoto{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .gcontainer{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: 10px 1fr;
+    
+    margin-left: 17%;
+ }
+ .info{
+    text-align: justify;
+    font-size: 110%;
+   
+ }
+ #profile{
+    height: 120%;
+    padding-bottom: 10%;
+ }
+ .pinfo{
+    text-align: left;
+ }
+ 
+ #profile h3{
+    margin-top: 10%;
+ }
+ #aboutme{
+    height: 110%;
+    padding-bottom: 2%;
+ }
+ .pcontainer{
+   width: 1;
+ }
+ .timeline{
+    margin-left: 10%;
+    
+}
+ .circleone{
+    position: absolute;
+    left:54.6% ;
+ }
+
+
+  }
+  @media(max-width:1000px){
+    .Education{
+        height: 5X0vh;
+    }
+    #project{
+        height: 100%;
+    }
+   .project-grid{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+   }
+ 
+   #Nun{
+    display: none;
+   }
+   .project-grid p{
+    
+    max-width: 100%;
+   }
+   .project-grid div{
+    
+    height: fit-content;
+    width: 50%;
+    padding-bottom: 2%;
+   }
+   
+   .project-grid *{
+    margin-top: 0;
+   }
+   .project-grid h1{
+    font-size:larger;
+    color: black;
+   }    
+   .project1>img{
+    
+    width: 150px;
+   }
+   .project1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   }
+ 
+  }
+  @media(max-width:850px){
+    .Education{
+        height: 70vh;
+    }
+    .headingedu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .educontainer{
+        display: block;
+    }
+    .circleone{
+        position:absolute;
+        left: 9.4%;
+    }   
+
+  }
+  @media(max-width:524px){
+    .Education{
+        height: 80vh;
+    }
+        .headingedu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+   
+    .educontainer{
+        display: block;
+    }
+    .circleone{
+        position:absolute;
+        left: 9%;
+    }
+    .footer-flex h3{
+  
+        margin-top: 2%;
+        letter-spacing: 2px;
+        font-size: 30px;
+        color: #F06000;
+    }
+    .footer-flex h2{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 95%;
+    }
+    .footer-flex h4{
+        color:#838C95;
+        font-size: 120%;
+      
+    }
+    .footer-flex h4{
+        color:#838C95;
+        font-size: 120%;
+      
+    }
+    
+    .footer-grid{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-grid img{
+        height: 15%;
+        width: 10%;
+    }
+    .footer-grid p{
+       margin-top:0px;
+       padding: 0;
+       margin-bottom: 10%;
+    }
+    .footer-grid a{
+        margin-bottom: 10%;
+    }
+  }
+  @media(max-width:410px){
+    .Education{
+        height: 80vh;
+    }
+    .headingedu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .educontainer{
+        display: block;
+    }
+    .circleone{
+        position:absolute;
+        left: 8.3%;
+    }
+ 
+  }
+
+
